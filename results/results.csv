@@ -1,0 +1,13 @@
+scenario,n,structure,insert_ms,search_ms,delete_ms,bst_height
+random,100,BST,0.002,0.002,0.002,13
+random,100,HashTable,0.016,0.001,0.001,
+random,1000,BST,0.059,0.055,0.063,21
+random,1000,HashTable,0.098,0.011,0.009,
+random,10000,BST,0.912,0.987,1.115,32
+random,10000,HashTable,0.373,0.154,0.142,
+sorted,100,BST,0.009,0.010,0.009,100
+sorted,100,HashTable,0.002,0.001,0.001,
+sorted,1000,BST,0.818,0.870,0.849,1000
+sorted,1000,HashTable,0.055,0.018,0.018,
+sorted,10000,BST,71.968,84.732,85.852,10000
+sorted,10000,HashTable,0.464,0.416,0.222,
